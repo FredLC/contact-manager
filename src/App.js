@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Contact />
+      <Contact name="John Doe" email="johndoe@gmail.com" phone="555-555-5555" />
     </div>
   );
 }
